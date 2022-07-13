@@ -18,7 +18,6 @@ function Section3(props) {
     }, [])
     const taskCompleted = result.filter(x => x.completed === true)
     const id10 = result.filter(x => x.userId === 10)
-    console.log('id 10', id10);
     const taskNotCompleted = id10.filter(x => x.completed === false)
     return (
         <div>
