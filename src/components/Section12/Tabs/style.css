@@ -1,0 +1,42 @@
+.tab-title div{
+    display: inline-block;
+    border: 1px solid rgb(126, 102, 102);
+    background-color: #ccc;
+    color: #000;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+div .active {
+    background-color: #fff;
+    color: #000;
+}
+
+.tab-content {
+    display: none;
+    padding: 10px 20px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+label {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+input {
+    margin-right: 10px;
+}
+
+.ques {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.ans {
+    line-height: 1.8;
+    font-size: 18px;
+}
